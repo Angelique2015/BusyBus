@@ -2,6 +2,11 @@
 
 /** Overall Body Edits **/
 
+html {
+	overflow-y: hidden;
+	margin-top: 16px;
+}
+
 body {
 	
 	background-color: black;
@@ -24,10 +29,6 @@ h1 {
 	text-align: center;
 }
 
-#east {
-	padding-top: 320px;
-}
-
 h3 {
 	padding: 10px 0px 10px 16px;
 	font-size: 1.3em;
@@ -35,6 +36,8 @@ h3 {
 
 .main {
 	background-color: #FFF;
+	overflow-y: scroll;
+	height: 667px;
 }
 
 img {
@@ -42,6 +45,10 @@ img {
 	float: left;
 	font-size: 0px;
 	width: 375px;
+}
+
+#east {
+	padding-top: 320px;
 }
 
 
